@@ -1,0 +1,38 @@
+{
+  "name": "nanban-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "export NODE_PATH=.; node ./bin/www",
+    "start": "export PORT=80; export NODE_PATH=.; node ./bin/www"
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^2.0.0",
+    "@slack/web-api": "^5.8.0",
+    "connect-flash": "^0.1.1",
+    "container-sortedlist": "^0.1.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "dtrace-provider": "^0.8.8",
+    "dynalite": "^3.1.6",
+    "dynamoose": "^1.11.1",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "hbs": "^4.1.0",
+    "http-errors": "^1.6.3",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.15",
+    "log4js": "^6.2.1",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "newsapi": "2.4.0",
+    "node-rest-client": "",
+    "passport-azure-ad": "^4.2.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "simple-oauth2": "^3.3.0",
+    "uuid": "^7.0.3"
+  }
+}
