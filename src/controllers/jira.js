@@ -12,7 +12,7 @@ const priorityValues = {
 class JIRA {
     constructor(user) {
         this.user = user;
-        this.baseUrl = 'https://jira.eng.vmware.com/rest/api/latest/';
+        this.baseUrl = '<url>';
         this.baseOptions = {
             method: 'POST',
             headers: {

@@ -8,7 +8,7 @@ const generateBlock = (tickets) => {
             "type": "section",
             "text": {
                 "type": "mrkdwn",
-                "text": `<https://jira.eng.vmware.com/browse/${ticket.name}|${ticket.name}> | *${ticket.desc}* | ${ticket.priority}`
+                "text": `<format>`
             }
         };
         Array.prototype.push.apply(ticketsBlock, [ ticketItemBlock ]);
